@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0D50531C87353F0015E354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D50521C87353F0015E354 /* AppDelegate.swift */; };
+		DD0D50551C87353F0015E354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D50541C87353F0015E354 /* ViewController.swift */; };
+		DD0D50581C87353F0015E354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0D50561C87353F0015E354 /* Main.storyboard */; };
+		DD0D505B1C87353F0015E354 /* Matsedeln.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD0D50591C87353F0015E354 /* Matsedeln.xcdatamodeld */; };
+		DD0D505D1C87353F0015E354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0D505C1C87353F0015E354 /* Assets.xcassets */; };
+		DD0D50601C87353F0015E354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0D505E1C87353F0015E354 /* LaunchScreen.storyboard */; };
+		DD0D506B1C87353F0015E354 /* MatsedelnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D506A1C87353F0015E354 /* MatsedelnTests.swift */; };
+		DD0D50761C87353F0015E354 /* MatsedelnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D50751C87353F0015E354 /* MatsedelnUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD0D50671C87353F0015E354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD0D50471C87353F0015E354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD0D504E1C87353F0015E354;
+			remoteInfo = Matsedeln;
+		};
+		DD0D50721C87353F0015E354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD0D50471C87353F0015E354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD0D504E1C87353F0015E354;
+			remoteInfo = Matsedeln;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD0D504F1C87353F0015E354 /* Matsedeln.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matsedeln.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0D50521C87353F0015E354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD0D50541C87353F0015E354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD0D50571C87353F0015E354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD0D505A1C87353F0015E354 /* Matsedeln.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Matsedeln.xcdatamodel; sourceTree = "<group>"; };
+		DD0D505C1C87353F0015E354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD0D505F1C87353F0015E354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD0D50611C87353F0015E354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0D50661C87353F0015E354 /* MatsedelnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatsedelnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0D506A1C87353F0015E354 /* MatsedelnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatsedelnTests.swift; sourceTree = "<group>"; };
+		DD0D506C1C87353F0015E354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0D50711C87353F0015E354 /* MatsedelnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatsedelnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0D50751C87353F0015E354 /* MatsedelnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatsedelnUITests.swift; sourceTree = "<group>"; };
+		DD0D50771C87353F0015E354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD0D504C1C87353F0015E354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0D50631C87353F0015E354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0D506E1C87353F0015E354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD0D50461C87353F0015E354 = {
+			isa = PBXGroup;
+			children = (
+				DD0D50511C87353F0015E354 /* Matsedeln */,
+				DD0D50691C87353F0015E354 /* MatsedelnTests */,
+				DD0D50741C87353F0015E354 /* MatsedelnUITests */,
+				DD0D50501C87353F0015E354 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD0D50501C87353F0015E354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D504F1C87353F0015E354 /* Matsedeln.app */,
+				DD0D50661C87353F0015E354 /* MatsedelnTests.xctest */,
+				DD0D50711C87353F0015E354 /* MatsedelnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD0D50511C87353F0015E354 /* Matsedeln */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D50521C87353F0015E354 /* AppDelegate.swift */,
+				DD0D50541C87353F0015E354 /* ViewController.swift */,
+				DD0D50561C87353F0015E354 /* Main.storyboard */,
+				DD0D505C1C87353F0015E354 /* Assets.xcassets */,
+				DD0D505E1C87353F0015E354 /* LaunchScreen.storyboard */,
+				DD0D50611C87353F0015E354 /* Info.plist */,
+				DD0D50591C87353F0015E354 /* Matsedeln.xcdatamodeld */,
+			);
+			path = Matsedeln;
+			sourceTree = "<group>";
+		};
+		DD0D50691C87353F0015E354 /* MatsedelnTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D506A1C87353F0015E354 /* MatsedelnTests.swift */,
+				DD0D506C1C87353F0015E354 /* Info.plist */,
+			);
+			path = MatsedelnTests;
+			sourceTree = "<group>";
+		};
+		DD0D50741C87353F0015E354 /* MatsedelnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D50751C87353F0015E354 /* MatsedelnUITests.swift */,
+				DD0D50771C87353F0015E354 /* Info.plist */,
+			);
+			path = MatsedelnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD0D504E1C87353F0015E354 /* Matsedeln */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0D507A1C87353F0015E354 /* Build configuration list for PBXNativeTarget "Matsedeln" */;
+			buildPhases = (
+				DD0D504B1C87353F0015E354 /* Sources */,
+				DD0D504C1C87353F0015E354 /* Frameworks */,
+				DD0D504D1C87353F0015E354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Matsedeln;
+			productName = Matsedeln;
+			productReference = DD0D504F1C87353F0015E354 /* Matsedeln.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD0D50651C87353F0015E354 /* MatsedelnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0D507D1C87353F0015E354 /* Build configuration list for PBXNativeTarget "MatsedelnTests" */;
+			buildPhases = (
+				DD0D50621C87353F0015E354 /* Sources */,
+				DD0D50631C87353F0015E354 /* Frameworks */,
+				DD0D50641C87353F0015E354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD0D50681C87353F0015E354 /* PBXTargetDependency */,
+			);
+			name = MatsedelnTests;
+			productName = MatsedelnTests;
+			productReference = DD0D50661C87353F0015E354 /* MatsedelnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD0D50701C87353F0015E354 /* MatsedelnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0D50801C87353F0015E354 /* Build configuration list for PBXNativeTarget "MatsedelnUITests" */;
+			buildPhases = (
+				DD0D506D1C87353F0015E354 /* Sources */,
+				DD0D506E1C87353F0015E354 /* Frameworks */,
+				DD0D506F1C87353F0015E354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD0D50731C87353F0015E354 /* PBXTargetDependency */,
+			);
+			name = MatsedelnUITests;
+			productName = MatsedelnUITests;
+			productReference = DD0D50711C87353F0015E354 /* MatsedelnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD0D50471C87353F0015E354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jonas Jacobsson";
+				TargetAttributes = {
+					DD0D504E1C87353F0015E354 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = TS5Y86VW83;
+					};
+					DD0D50651C87353F0015E354 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = TS5Y86VW83;
+						TestTargetID = DD0D504E1C87353F0015E354;
+					};
+					DD0D50701C87353F0015E354 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = TS5Y86VW83;
+						TestTargetID = DD0D504E1C87353F0015E354;
+					};
+				};
+			};
+			buildConfigurationList = DD0D504A1C87353F0015E354 /* Build configuration list for PBXProject "Matsedeln" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD0D50461C87353F0015E354;
+			productRefGroup = DD0D50501C87353F0015E354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD0D504E1C87353F0015E354 /* Matsedeln */,
+				DD0D50651C87353F0015E354 /* MatsedelnTests */,
+				DD0D50701C87353F0015E354 /* MatsedelnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD0D504D1C87353F0015E354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0D50601C87353F0015E354 /* LaunchScreen.storyboard in Resources */,
+				DD0D505D1C87353F0015E354 /* Assets.xcassets in Resources */,
+				DD0D50581C87353F0015E354 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0D50641C87353F0015E354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0D506F1C87353F0015E354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD0D504B1C87353F0015E354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0D50551C87353F0015E354 /* ViewController.swift in Sources */,
+				DD0D505B1C87353F0015E354 /* Matsedeln.xcdatamodeld in Sources */,
+				DD0D50531C87353F0015E354 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0D50621C87353F0015E354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0D506B1C87353F0015E354 /* MatsedelnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0D506D1C87353F0015E354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0D50761C87353F0015E354 /* MatsedelnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD0D50681C87353F0015E354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD0D504E1C87353F0015E354 /* Matsedeln */;
+			targetProxy = DD0D50671C87353F0015E354 /* PBXContainerItemProxy */;
+		};
+		DD0D50731C87353F0015E354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD0D504E1C87353F0015E354 /* Matsedeln */;
+			targetProxy = DD0D50721C87353F0015E354 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD0D50561C87353F0015E354 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0D50571C87353F0015E354 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD0D505E1C87353F0015E354 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0D505F1C87353F0015E354 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD0D50781C87353F0015E354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD0D50791C87353F0015E354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD0D507B1C87353F0015E354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Matsedeln/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = knowit.Matsedeln;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD0D507C1C87353F0015E354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Matsedeln/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = knowit.Matsedeln;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD0D507E1C87353F0015E354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MatsedelnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = knowit.MatsedelnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matsedeln.app/Matsedeln";
+			};
+			name = Debug;
+		};
+		DD0D507F1C87353F0015E354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MatsedelnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = knowit.MatsedelnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matsedeln.app/Matsedeln";
+			};
+			name = Release;
+		};
+		DD0D50811C87353F0015E354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MatsedelnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = knowit.MatsedelnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Matsedeln;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD0D50821C87353F0015E354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MatsedelnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = knowit.MatsedelnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Matsedeln;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD0D504A1C87353F0015E354 /* Build configuration list for PBXProject "Matsedeln" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0D50781C87353F0015E354 /* Debug */,
+				DD0D50791C87353F0015E354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0D507A1C87353F0015E354 /* Build configuration list for PBXNativeTarget "Matsedeln" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0D507B1C87353F0015E354 /* Debug */,
+				DD0D507C1C87353F0015E354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD0D507D1C87353F0015E354 /* Build configuration list for PBXNativeTarget "MatsedelnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0D507E1C87353F0015E354 /* Debug */,
+				DD0D507F1C87353F0015E354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD0D50801C87353F0015E354 /* Build configuration list for PBXNativeTarget "MatsedelnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0D50811C87353F0015E354 /* Debug */,
+				DD0D50821C87353F0015E354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD0D50591C87353F0015E354 /* Matsedeln.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD0D505A1C87353F0015E354 /* Matsedeln.xcdatamodel */,
+			);
+			currentVersion = DD0D505A1C87353F0015E354 /* Matsedeln.xcdatamodel */;
+			path = Matsedeln.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD0D50471C87353F0015E354 /* Project object */;
+}
