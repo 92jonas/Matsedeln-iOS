@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		DD0D50531C87353F0015E354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D50521C87353F0015E354 /* AppDelegate.swift */; };
-		DD0D50551C87353F0015E354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D50541C87353F0015E354 /* ViewController.swift */; };
+		DD0D50551C87353F0015E354 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D50541C87353F0015E354 /* MainVC.swift */; };
 		DD0D50581C87353F0015E354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0D50561C87353F0015E354 /* Main.storyboard */; };
 		DD0D505B1C87353F0015E354 /* Matsedeln.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD0D50591C87353F0015E354 /* Matsedeln.xcdatamodeld */; };
 		DD0D505D1C87353F0015E354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0D505C1C87353F0015E354 /* Assets.xcassets */; };
 		DD0D50601C87353F0015E354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0D505E1C87353F0015E354 /* LaunchScreen.storyboard */; };
 		DD0D506B1C87353F0015E354 /* MatsedelnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D506A1C87353F0015E354 /* MatsedelnTests.swift */; };
 		DD0D50761C87353F0015E354 /* MatsedelnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D50751C87353F0015E354 /* MatsedelnUITests.swift */; };
+		DD0D50841C8738660015E354 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D50831C8738660015E354 /* Resources.swift */; };
+		DD56005C1C897D8A00504B22 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD56005B1C897D8A00504B22 /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* Begin PBXFileReference section */
 		DD0D504F1C87353F0015E354 /* Matsedeln.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matsedeln.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0D50521C87353F0015E354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD0D50541C87353F0015E354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD0D50541C87353F0015E354 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		DD0D50571C87353F0015E354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD0D505A1C87353F0015E354 /* Matsedeln.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Matsedeln.xcdatamodel; sourceTree = "<group>"; };
 		DD0D505C1C87353F0015E354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,9 @@
 		DD0D50711C87353F0015E354 /* MatsedelnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatsedelnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0D50751C87353F0015E354 /* MatsedelnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatsedelnUITests.swift; sourceTree = "<group>"; };
 		DD0D50771C87353F0015E354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0D50831C8738660015E354 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		DD56005B1C897D8A00504B22 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		DD56005D1C897D8A00504B22 /* Matsedeln.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Matsedeln.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD56005C1C897D8A00504B22 /* ExternalAccessory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +85,7 @@
 		DD0D50461C87353F0015E354 = {
 			isa = PBXGroup;
 			children = (
+				DD56005B1C897D8A00504B22 /* ExternalAccessory.framework */,
 				DD0D50511C87353F0015E354 /* Matsedeln */,
 				DD0D50691C87353F0015E354 /* MatsedelnTests */,
 				DD0D50741C87353F0015E354 /* MatsedelnUITests */,
@@ -99,13 +106,15 @@
 		DD0D50511C87353F0015E354 /* Matsedeln */ = {
 			isa = PBXGroup;
 			children = (
+				DD56005D1C897D8A00504B22 /* Matsedeln.entitlements */,
 				DD0D50521C87353F0015E354 /* AppDelegate.swift */,
-				DD0D50541C87353F0015E354 /* ViewController.swift */,
+				DD0D50541C87353F0015E354 /* MainVC.swift */,
 				DD0D50561C87353F0015E354 /* Main.storyboard */,
 				DD0D505C1C87353F0015E354 /* Assets.xcassets */,
 				DD0D505E1C87353F0015E354 /* LaunchScreen.storyboard */,
 				DD0D50611C87353F0015E354 /* Info.plist */,
 				DD0D50591C87353F0015E354 /* Matsedeln.xcdatamodeld */,
+				DD0D50831C8738660015E354 /* Resources.swift */,
 			);
 			path = Matsedeln;
 			sourceTree = "<group>";
@@ -197,6 +206,11 @@
 					DD0D504E1C87353F0015E354 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = TS5Y86VW83;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
 					};
 					DD0D50651C87353F0015E354 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -262,8 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD0D50551C87353F0015E354 /* ViewController.swift in Sources */,
+				DD0D50551C87353F0015E354 /* MainVC.swift in Sources */,
 				DD0D505B1C87353F0015E354 /* Matsedeln.xcdatamodeld in Sources */,
+				DD0D50841C8738660015E354 /* Resources.swift in Sources */,
 				DD0D50531C87353F0015E354 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,10 +419,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Matsedeln/Matsedeln.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Matsedeln/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = knowit.Matsedeln;
+				PRODUCT_BUNDLE_IDENTIFIER = midgarden.Matsedeln;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -415,10 +434,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Matsedeln/Matsedeln.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Matsedeln/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = knowit.Matsedeln;
+				PRODUCT_BUNDLE_IDENTIFIER = midgarden.Matsedeln;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -489,6 +512,7 @@
 				DD0D507C1C87353F0015E354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD0D507D1C87353F0015E354 /* Build configuration list for PBXNativeTarget "MatsedelnTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +521,7 @@
 				DD0D507F1C87353F0015E354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD0D50801C87353F0015E354 /* Build configuration list for PBXNativeTarget "MatsedelnUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +530,7 @@
 				DD0D50821C87353F0015E354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
